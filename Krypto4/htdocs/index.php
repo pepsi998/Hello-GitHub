@@ -56,7 +56,7 @@ $FOOTER = <<<EOT
 	<div class = "row">
 		<div class ="col-6-6">
 			<footer>
-				<p> Copyright &copy; WPPT PWr Kamil Sikorski </p>
+				<p> Copyright &copy; </p>
 			</footer>
 		</div>
 	</div>
