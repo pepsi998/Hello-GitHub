@@ -1,0 +1,189 @@
+article, aside, figure, footer, header, menu, nav, section { 
+	display: block;
+}
+
+[phonehidden] {
+	display: none;
+}
+
+/*Okno*/
+#myFrame{
+	border-top:5px solid black;
+}
+/*
+*{
+	outline: 1px solid green;
+	color:black;
+}
+*/
+.myTitle{
+	float:left;
+	font-size:3rem;
+	margin-top: 1rem;
+	margin-bottom:0;
+	color: #de4a2a;
+}
+
+.logo{
+	display:none;
+}
+
+/*Nawigacja*/
+.menuPhone{ 
+	text-align:right;
+}
+
+.menuPhone a{
+	background-color:  #de4a2a;
+	display: block;
+	padding:2%;
+	font-family:"Arial";
+	text-decoration:none;
+	color:white;
+}
+ul#menu {
+	display:none;
+	list-style:none;
+	padding:0;
+	margin-top:0;
+	background-color:#F0F0F0;
+}
+
+ul#menu li a {
+	display:block;
+	padding:2%;
+	text-decoration: none;
+	font-family:"Arial";
+    color: black;
+}
+
+ul#menu li a:hover {
+    background-color:black;
+	color:white;
+}
+ul#menu .active{
+	display:block;
+	font-family:"Arial";
+	padding:2%;
+	background-color:  #de4a2a;
+	color: white;
+}
+
+/*Artykul*/
+.sectionFrame{
+	padding-left:1rem;
+	font-family:"Arial";
+}
+
+.articleFrame p{
+	padding-left:1rem;
+}
+.articleFrame pre{
+	overflow-x:auto;
+	padding-left:1rem;
+}
+.articleFrame h2{
+	margin:5px;
+	font-family:"Times new Roman";
+}
+.articleFrame h3{
+	font-family:"Times new Roman";
+}
+
+.code{
+	margin-left:2%;
+	font-family:"arial";
+	background-color:#F0F0F0;
+}
+
+footer{
+	background-color:#F0F0F0;
+}
+.cytat{
+	background:#e5f7fb;
+	border:1px solid #ddd;
+	margin:1em;
+	border-radius:15px;
+	padding:10px;
+	
+} 
+blockquote{
+	border-left:0 solid #ccc;
+	margin:1.5em 10px;
+	padding:.5em 10px;
+	quotes:"\201C""\201D""\2018""\2019"
+} 
+ 
+blockquote:before{
+	color:#ccc;
+	content:open-quote;
+	font-size:2em;
+	line-height:.1em;
+	margin-right:.2em;
+	vertical-align:-.2em
+} 
+ blockquote p{
+	 display:inline;
+	 font-size: 1.5em;
+ }
+.right{
+	text-align:right;
+} 
+ 
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+
+
+div.fixed {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 270px;
+    border: 3px solid #73AD21;
+	animation-name: example;
+    animation-duration: 4s;
+	animation-iteration-count: infinite;
+}
+ @keyframes example {
+    0%   {    bottom: 0;    right: 0;}
+    25%  {	  bottom: 200px;    right: 0;}
+    50%  {    bottom: 200px;    right: 200px;}
+    75%  {    bottom: 0;    right: 200px;}
+    100% {    bottom: 0;    right: 0;}
+}
+@media screen and (min-width:640px){
+	#myFrame{
+		margin: auto;
+		max-width:940px;
+		width: 90%;
+	}
+	.logo{
+		display:block;
+		float:left;
+		width:4rem;
+		height:4rem;
+		padding:1rem;
+	}
+	ul#menu {
+		display:block;
+	}
+	.menuPhone{
+		display:none;
+	}
+}
+
+
+
+
+
